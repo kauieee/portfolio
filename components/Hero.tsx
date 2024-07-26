@@ -6,25 +6,11 @@ import { BsPersonWorkspace } from 'react-icons/bs';
 import ShootingStars from './ui/ShootingStars';
 import { socialMedia } from '@/data';
 import { LinkPreview } from './ui/LinkPreview';
+import { TextGenerateEffect } from './ui/TextGenerateEffect';
 
 const Hero = () => {
 
-    const words = [
-        {
-          text: "Hi,",
-        },
-        {
-          text: "I'm",
-        },
-        {
-          text: "Kaushik",
-          className: "text-purple dark:text-purple"
-        },
-        {
-          text: "Manivannan.",
-          className: "text-purple dark:text-purple"
-        },
-    ];
+    const words = "Hi, I'm Kaushik Manivannan";
 
     return (
         <div className="pb-20 pt-36">
@@ -45,10 +31,12 @@ const Hero = () => {
                         Made with Next.js
                     </h2>
 
-                    <TypewriterEffectSmooth 
+                    {/* <TypewriterEffectSmooth 
                         words={words}
                         className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                    />
+                    /> */}
+
+                    <TextGenerateEffect words={words}  className='text-center text-[40px] md:text-5xl lg:text-6xl'/>
 
                     <p className="text-center md:tracking-wider text-sm md:text-xl lg:text-2xl mb-5 md:mb-0 font-bold">
                         A Full-Stack AI Software Engineer based in Boston, MA.

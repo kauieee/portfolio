@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const svgToDataUri = require("mini-svg-data-uri");
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 const colors = require("tailwindcss/colors");
 const {
@@ -22,6 +23,7 @@ const config = {
       center: true,
       padding: "2rem",
       screens: {
+        "xs": "500px",
         "2xl": "1400px",
       },
     },
@@ -160,6 +162,10 @@ const config = {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
+    },
+    screens: {
+      "xs": "500px",
+      ...defaultTheme.screens,
     },
   },
   plugins: [

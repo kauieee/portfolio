@@ -10,10 +10,10 @@ const RecentProjects = () => {
             Showcase of {" "}
             <span className="text-purple">Recent Projects</span>
         </h1>
-        <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8">
+        <div className="flex flex-wrap items-center justify-center p-4 gap-x-24">
             {
                 projects.map(({id, title, des, img, iconLists, link}) => (
-                    <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
+                    <div key={id} className="sm:h-[41rem] xs:h-[33rem] h-[29rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
                         <PinContainer title={link} href={link}>
                             <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] mb-10 rounded-lg h-fit">
                                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
