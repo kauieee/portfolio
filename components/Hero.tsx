@@ -1,6 +1,5 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
-import { TypewriterEffectSmooth } from './ui/TypewriterEffect';
 import MagicButton from './ui/MagicButton';
 import { BsPersonWorkspace } from 'react-icons/bs';
 import ShootingStars from './ui/ShootingStars';
