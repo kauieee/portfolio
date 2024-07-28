@@ -7,8 +7,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "@/data";
-import { GlareCard } from "./ui/GlareCard";
 import { useInView } from "react-intersection-observer";
+import { BackgroundGradient } from "./ui/BackgroundGradient";
 
 interface Experience {
   date: string;
@@ -42,10 +42,10 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
           flexDirection: "column",
           justifyContent: "flex-start",
           alignItems: "center",
-          padding: "5px",
-          marginBottom: "30px"
+          padding: "0px",
+          marginTop: "30px"
         }}
-        contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+        contentArrowStyle={{ borderRight: "7px solid #232631" }}
         date={experience.date}
         iconStyle={{ background: experience.iconBg }}
         icon={
@@ -59,7 +59,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
         }
         position={position}
       >
-        <GlareCard className="flex flex-col items-center justify-center px-2 py-10 md:py-5 md:px-5">
+        <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-[linear-gradient(90deg,rgba(4,7,29,1)0%,rgba(12,14,35,1)100%)]">
           <div>
             <h3 className='text-white text-[24px] font-bold text-center mb-1'>{experience.title}</h3>
             <p
@@ -80,7 +80,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
               </li>
             ))}
           </ul>
-      </GlareCard>
+      </BackgroundGradient>
       </VerticalTimelineElement>
     </div>
   );
@@ -90,6 +90,7 @@ const Experience: React.FC = () => {
   const timelineStyles = `
     .vertical-timeline {
       padding: 0px;
+      width: 100%;
     }
 
     @media only screen and (max-width: 450px) {
@@ -99,7 +100,6 @@ const Experience: React.FC = () => {
         
       .vertical-timeline-element-content {
         margin-left: 0 !important;
-        padding: 1em !important;
         width: 100% !important;
       }
       .vertical-timeline-element-content .vertical-timeline-element-date {
