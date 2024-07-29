@@ -33,8 +33,8 @@ const Footer = () => {
 
         <div className="flex justify-center items-center md:gap-3 gap-6 z-50 mt-5">
             {socialMedia.map((profile) => (
-                <LinkPreview url={profile.link} key={profile.id} className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 z-50">
-                    <img src={profile.img} alt="Kaushik Manivannan" width={20} height={20}
+                <LinkPreview url={profile.link} key={profile.id} className="w-12 h-12 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 z-50">
+                    <img src={profile.img} alt="Kaushik Manivannan" width={25} height={25}
                     />
                 </LinkPreview>
             ))}
