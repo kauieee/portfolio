@@ -17,9 +17,9 @@ const RecentProjects = () => {
                         <PinContainer title={link} href={link}>
                             <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden mb-10 rounded-lg h-fit">
                                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                                    <img src="/bg.png" alt="Kaushik Manivannan" />
+                                    <img src="/bg.webp" alt="Kaushik Manivannan" />
                                 </div>
-                                <img src={img} alt="Kaushik Manivannan" className={`z-10 absolute top-0 bottom-0 rounded-lg`}/>
+                                <img loading="lazy" src={img} alt="Kaushik Manivannan" className={`z-10 absolute top-0 bottom-0 rounded-lg`}/>
                             </div>
                             <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 mb-1">
                                 {title}

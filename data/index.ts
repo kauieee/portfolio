@@ -13,7 +13,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/ai-duo.png",
+      img: "/ai-duo.webp",
       spareImg: "",
     },
     {
@@ -43,7 +43,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
+      img: "/grid.webp",
       spareImg: "/b4.svg",
     },
   
@@ -55,7 +55,7 @@ export const navItems = [
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/b5.svg",
-      spareImg: "/grid.svg",
+      spareImg: "/grid.webp",
     },
     {
       id: 6,
@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "Tasty Trails",
       des: "A MERN Stack application that enhances community collaboration and minimizes food waste.",
-      img: "/tasty-trails.png",
+      img: "/tasty-trails.webp",
       iconLists: ["/sass.svg", "/js.svg", "/ts.svg", "/re.svg", "/exp.svg", "/mongo.svg"],
       link: "https://github.com/kaushik-manivannan/tasty-trails",
     },
@@ -82,7 +82,7 @@ export const navItems = [
       id: 2,
       title: "Hire & Seek",
       des: "A Spring Boot application that simplifies the job application process for both candidates and employers.",
-      img: "/hire-and-seek.png",
+      img: "/hire-and-seek.webp",
       iconLists: ["/java.svg", "/thymeleaf.svg", "/spring-boot.svg", "hibernate.svg", "mysql.svg"],
       link: "https://github.com/kaushik-manivannan/hire-and-seek",
     },
@@ -90,7 +90,7 @@ export const navItems = [
       id: 3,
       title: "Smart Parking Management System",
       des: "Comprehensive Oracle SQL based database-driven solution that addresses urban parking challenges.",
-      img: "/parking.jpg",
+      img: "/parking.webp",
       iconLists: ["/oracle.svg", "/sql-dev.svg"],
       link: "https://github.com/kaushik-manivannan/Smart-Parking-Management-System",
     },
@@ -98,73 +98,9 @@ export const navItems = [
       id: 4,
       title: "Pathfinding Visualizer",
       des: "An interactive tool that showcases various pathfinding algorithms in action.",
-      img: "/pathfinding.png",
+      img: "/pathfinding.webp",
       iconLists: ["/html.svg", "/css.svg", "/js.svg"],
       link: "https://github.com/kaushik-manivannan/pathfinding-visualizer",
-    },
-  ];
-  
-  export const companies = [
-    {
-      id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
-    },
-    {
-      id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
-    },
-  ];
-  
-  export const workExperience = [
-    {
-      id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
     },
   ];
   
@@ -211,7 +147,7 @@ export const navItems = [
     {
       title: "Master of Science in Software Engineering Systems",
       company_name: "Northeastern University",
-      icon: "northeastern.png",
+      icon: "northeastern.webp",
       iconBg: "#fff",
       date: "Sep 2023 - May 2025",
       points: [
@@ -222,7 +158,7 @@ export const navItems = [
     {
       title: "Full Stack Developer",
       company_name: "Tata Consultancy Services",
-      icon: "tcs.png",
+      icon: "tcs.webp",
       iconBg: "#fff",
       date: "Aug 2021 - Feb 2023",
       points: [
