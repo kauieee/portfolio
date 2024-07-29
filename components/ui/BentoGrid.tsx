@@ -2,8 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { flipWords, leftLists, rightLists } from "@/data";
-import { GlobeDemo } from "./GridGlobe";
+import { flipWords } from "@/data";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from "@/data/confetti.json"
@@ -11,6 +10,7 @@ import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 import { FlipWords } from "./FlipWords";
 import { WavyBackground } from "./WavyBackground";
+import { StarsBackground } from "./StarsBackground";
 
 export const BentoGrid = ({
   className,
@@ -124,7 +124,7 @@ export const BentoGridItem = ({
               </div>
             )}
 
-            {id === 2 && <GlobeDemo />}
+            {id === 2 && <StarsBackground />}
 
             {/* {id === 3 && (
                 <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
