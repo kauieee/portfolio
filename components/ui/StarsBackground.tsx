@@ -45,11 +45,11 @@ interface StarsBackgroundProps {
 }
 
 export const StarsBackground: React.FC<StarsBackgroundProps> = ({
-  starDensity = 0.00015,
+  starDensity = 0.0009,
   allStarsTwinkle = true,
   twinkleProbability = 0.7,
-  minTwinkleSpeed = 0.5,
-  maxTwinkleSpeed = 1,
+  minTwinkleSpeed = 1.5,
+  maxTwinkleSpeed = 2,
   className,
 }) => {
   const [stars, setStars] = useState<StarProps[]>([]);
