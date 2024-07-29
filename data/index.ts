@@ -38,8 +38,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "My code is so clean, it squeaks when you compile it.",
-      description: "",
+      title: "Grad Student at Northeastern University",
+      description: "Life Lately",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",

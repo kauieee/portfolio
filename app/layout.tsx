@@ -7,8 +7,8 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kaushik Manivannan's Portfolio",
-  description: "Kaushik Manivannan",
+  title: "Kaushik Manivannan - Portfolio",
+  description: "Kaushik Manivannan | Master's in Software Engineering Systems at Northeastern University, Boston, MA | Full Stack AI Software Engineer | Portfolio",
 };
 
 export default function RootLayout({
