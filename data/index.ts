@@ -72,6 +72,14 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Kitchen Rescue - Your AI Kitchen Companion",
+      des: "Next.js app designed to simplify cooking and grocery management for busy individuals.",
+      img: "/kitchen-rescue.webp",
+      iconLists: ["/ts.svg", "/re.svg", "/next.svg", "/tailwind.svg", "/mui.svg", "/firebase.svg", "/openai.svg"],
+      link: "https://kitchenrescue.vercel.app",
+    },
+    {
+      id: 2,
       title: "Tasty Trails",
       des: "A MERN Stack application that enhances community collaboration and minimizes food waste.",
       img: "/tasty-trails.webp",
@@ -79,7 +87,7 @@ export const navItems = [
       link: "https://github.com/kaushik-manivannan/tasty-trails",
     },
     {
-      id: 2,
+      id: 3,
       title: "Hire & Seek",
       des: "A Spring Boot application that simplifies the job application process for both candidates and employers.",
       img: "/hire-and-seek.webp",
@@ -87,21 +95,21 @@ export const navItems = [
       link: "https://github.com/kaushik-manivannan/hire-and-seek",
     },
     {
-      id: 3,
+      id: 4,
       title: "Smart Parking Management System",
       des: "Comprehensive Oracle SQL based database-driven solution that addresses urban parking challenges.",
       img: "/parking.webp",
       iconLists: ["/oracle.svg", "/sql-dev.svg"],
       link: "https://github.com/kaushik-manivannan/Smart-Parking-Management-System",
     },
-    {
-      id: 4,
-      title: "Pathfinding Visualizer",
-      des: "An interactive tool that showcases various pathfinding algorithms in action.",
-      img: "/pathfinding.webp",
-      iconLists: ["/html.svg", "/css.svg", "/js.svg"],
-      link: "https://github.com/kaushik-manivannan/pathfinding-visualizer",
-    },
+    // {
+    //   id: 4,
+    //   title: "Pathfinding Visualizer",
+    //   des: "An interactive tool that showcases various pathfinding algorithms in action.",
+    //   img: "/pathfinding.webp",
+    //   iconLists: ["/html.svg", "/css.svg", "/js.svg"],
+    //   link: "https://github.com/kaushik-manivannan/pathfinding-visualizer",
+    // },
   ];
   
   export const socialMedia = [
@@ -162,7 +170,7 @@ export const navItems = [
       iconBg: "#fff",
       date: "Aug 2021 - Feb 2023",
       points: [
-        "Spearheaded the front-end development of a Single Page Application (SPA) using Angular, revolutionizing the customer verification process for an insurance firm by replacing their traditional call center process with a streamlined digital system",
+        "Spearheaded the front-end development of a Single Page Application (SPA) using React, revolutionizing the customer verification process for an insurance firm by replacing their traditional call center process with a streamlined digital system",
         "Streamlined user verification process, slashing average confirmation times from 10+ minutes to just 3 minutes (70% faster) through digital self-service workflows, handling 2,000+ verification requests per day",
         "Integrated Tensorflow-powered AI facial detection and MediaRecorder Web API for seamless real-time video capture, achieving a 98% accuracy rate in user verification",
         "Engineered responsive user interfaces supporting seamless usage across 6 device categories while achieving 97% accessibility compliance with WCAG 2.1 standards, enabling support for disability needs",
