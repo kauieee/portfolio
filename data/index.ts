@@ -80,6 +80,14 @@ export const navItems = [
     },
     {
       id: 2,
+      title: "Flip AI - SaaS App",
+      des: "AI-Powered Next.js app that instantly transforms any topic into custom flashcards for fast and engaging learning.",
+      img: "/flipai.webp",
+      iconLists: ["/ts.svg", "/re.svg", "/next.svg", "/tailwind.svg", "/stripe.svg", "/clerk.webp", "/firebase.svg", "/openai.svg"],
+      link: "https://flipai.vercel.app",
+    },
+    {
+      id: 3,
       title: "Tasty Trails",
       des: "A MERN Stack application that enhances community collaboration and minimizes food waste.",
       img: "/tasty-trails.webp",
@@ -87,7 +95,7 @@ export const navItems = [
       link: "https://github.com/kaushik-manivannan/tasty-trails",
     },
     {
-      id: 3,
+      id: 4,
       title: "Hire & Seek",
       des: "A Spring Boot application that simplifies the job application process for both candidates and employers.",
       img: "/hire-and-seek.webp",
@@ -95,7 +103,7 @@ export const navItems = [
       link: "https://github.com/kaushik-manivannan/hire-and-seek",
     },
     {
-      id: 4,
+      id: 5,
       title: "Smart Parking Management System",
       des: "Comprehensive Oracle SQL based database-driven solution that addresses urban parking challenges.",
       img: "/parking.webp",
@@ -159,8 +167,8 @@ export const navItems = [
       iconBg: "#fff",
       date: "Sep 2023 - May 2025",
       points: [
-        "CGPA: 3.84",
-        "Relevant Coursework: Object Oriented Design, Web Design and User Experience Engineering, Data Management and Database Design, Enterprise Software Design, Program Structures and Algorithms"
+        "CGPA: 3.87",
+        "Relevant Coursework: Object Oriented Design, Web Design and User Experience Engineering, Data Management and Database Design, Enterprise Software Design, Program Structures and Algorithms, Network Structures and Cloud Computing, User Experience Design and Engineering"
       ],
     },
     {
