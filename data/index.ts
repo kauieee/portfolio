@@ -212,9 +212,7 @@ export const experiences = [
       "Spearheaded the front-end development of a Single Page Application (SPA) using React, revolutionizing the customer verification process for an insurance firm by replacing their traditional call center process with a streamlined digital system",
       "Streamlined user verification process, slashing average confirmation times from 10+ minutes to just 3 minutes (70% faster) through digital self-service workflows, handling 2,000+ verification requests per day",
       "Integrated Tensorflow-powered AI facial detection and MediaRecorder Web API for seamless real-time video capture, achieving a 98% accuracy rate in user verification",
-      "Engineered responsive user interfaces supporting seamless usage across 6 device categories while achieving 97% accessibility compliance with WCAG 2.1 standards, enabling support for disability needs",
       "Refactored critical sections of Java code to leverage multithreading, resulting in a 40% improvement in CPU utilization efficiency and a 50% reduction in processing times for concurrent user requests",
-      "Orchestrated the development of 5 junior developers by promoting Agile development methodologies, pair programming and personalized code review sessions within the team, speeding up project delivery by 30% and minimizing bug reports by 40%",
     ],
   },
 ];
