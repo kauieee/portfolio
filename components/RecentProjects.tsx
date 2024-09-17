@@ -23,7 +23,7 @@ const RecentProjects = () => {
                                     loading="lazy" 
                                     src={img} 
                                     alt="Kaushik Manivannan" 
-                                    className={`z-10 absolute top-0 bottom-0 left-0 right-0 rounded-lg ${index === 1 ? '' : 'object-cover'} w-full h-full object-top`}
+                                    className={`z-10 absolute top-0 bottom-0 left-0 right-0 rounded-lg w-full h-full object-top`}
                                 />
                             </div>
                             <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 mb-1">
