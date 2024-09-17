@@ -99,8 +99,23 @@ export const projects = [
   },
   {
     id: 3,
+    title: "NEU Intramurals AI RAG Chatbot",
+    des: "AI RAG Chatbot providing real-time information about Northeastern University's Intramural Sports program, leveraging a custom knowledge base and NLP to answer student queries.",
+    img: "/ai-chatbot.webp",
+    iconLists: [
+      "/ts.svg",
+      "/re.svg",
+      "/next.svg",
+      "/tailwind.svg",
+      "/openai.svg",
+      "/pinecone.svg"
+    ],
+    link: "https://neuimbot.vercel.app",
+  },
+  {
+    id: 4,
     title: "Tasty Trails",
-    des: "A MERN Stack application that enhances community collaboration and minimizes food waste.",
+    des: "MERN Stack application that provides a platform for users to share information about surplus food, creating a better environment where everyone can contribute to minimizing food wastage.",
     img: "/tasty-trails.webp",
     iconLists: [
       "/sass.svg",
@@ -113,7 +128,7 @@ export const projects = [
     link: "https://github.com/kaushik-manivannan/tasty-trails",
   },
   {
-    id: 4,
+    id: 5,
     title: "Hire & Seek",
     des: "A Spring Boot application that simplifies the job application process for both candidates and employers.",
     img: "/hire-and-seek.webp",
@@ -127,7 +142,7 @@ export const projects = [
     link: "https://github.com/kaushik-manivannan/hire-and-seek",
   },
   {
-    id: 5,
+    id: 6,
     title: "Smart Parking Management System",
     des: "Comprehensive Oracle SQL based database-driven solution that addresses urban parking challenges.",
     img: "/parking.webp",

@@ -23,13 +23,13 @@ const RecentProjects = () => {
                                     loading="lazy" 
                                     src={img} 
                                     alt="Kaushik Manivannan" 
-                                    className={`z-10 absolute top-0 bottom-0 left-0 right-0 rounded-lg w-full h-full object-top`}
+                                    className={`z-10 absolute top-0 bottom-0 left-0 right-0 rounded-lg ${index === 1 ? '' : 'object-cover'} w-full h-full object-top`}
                                 />
                             </div>
                             <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 mb-1">
                                 {title}
                             </h1>
-                            <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+                            <p className="lg:text-lg lg:font-normal font-light text-sm line-clamp-3">
                                 {des}
                             </p>
                             <div className="flex items-center justify-between mt-7 mb-3">
