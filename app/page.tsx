@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import RecentProjects from '@/components/RecentProjects';
 import Footer from "@/components/Footer";
 import Experience from "@/components/Experience";
-import { Skills } from "@/components/Skills";
 import { FloatingDock } from "@/components/ui/FloatingDock";
 
 import {
@@ -50,7 +49,6 @@ export default function Home() {
         <Hero />
         <Grid />
         <Experience />
-        <Skills />
         <RecentProjects />
         <Footer />
       </div>
