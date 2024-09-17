@@ -52,7 +52,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
           <div className='flex justify-center items-center w-full h-full'>
             <img
               src={experience.icon}
-              alt="Kaushik Manivannan"
+              alt={experience.company_name}
               className='w-[70%] h-[70%] object-contain'
             />
           </div>
@@ -60,6 +60,13 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
         position={position}
       >
         <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-[linear-gradient(90deg,rgba(4,7,29,1)0%,rgba(12,14,35,1)100%)]">
+          <div className="[@media(min-width:451px)]:hidden my-4 flex justify-center bg-foreground rounded-full w-fit p-5 mx-auto">
+            <img
+              src={experience.icon}
+              alt={experience.company_name}
+              className='w-16 h-16 object-contain'
+            />
+          </div>
           <div>
             <h3 className='text-white text-[24px] font-bold text-center mb-1'>{experience.title}</h3>
             <p
@@ -80,7 +87,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
               </li>
             ))}
           </ul>
-      </BackgroundGradient>
+        </BackgroundGradient>
       </VerticalTimelineElement>
     </div>
   );
