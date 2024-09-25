@@ -203,7 +203,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer",
+    title: "Full Stack Engineer",
     company_name: "Tata Consultancy Services",
     icon: "tcs.webp",
     iconBg: "#fff",
