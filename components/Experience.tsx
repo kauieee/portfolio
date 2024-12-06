@@ -16,7 +16,7 @@ interface Experience {
   iconBg: string;
   title: string;
   company_name: string;
-  points: string[];
+  points: (string | string[])[];
 }
 
 interface ExperienceCardProps {
@@ -43,7 +43,6 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
           justifyContent: "flex-start",
           alignItems: "center",
           padding: "0px",
-          marginTop: "30px"
         }}
         contentArrowStyle={{ borderRight: "7px solid #232631" }}
         date={experience.date}
@@ -59,7 +58,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
         }
         position={position}
       >
-        <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-[linear-gradient(90deg,rgba(4,7,29,1)0%,rgba(12,14,35,1)100%)]">
+        <BackgroundGradient className="rounded-[22px] px-5 py-6 sm:p-10 bg-[linear-gradient(90deg,rgba(4,7,29,1)0%,rgba(12,14,35,1)100%)]">
           <div className="[@media(min-width:451px)]:hidden my-4 flex justify-center bg-foreground rounded-full w-fit p-5 mx-auto">
             <img
               src={experience.icon}
@@ -78,14 +77,34 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
           </div>
 
           <ul className='mt-5 list-disc ml-5 space-y-2'>
-            {experience.points.map((point, index) => (
-              <li
-                key={`experience-point-${index}`}
-                className='text-white-100 text-[14px] pl-1 tracking-wider'
-              >
-                {point}
-              </li>
-            ))}
+            {experience.points.map((point, index) => {
+              if (Array.isArray(point)) {
+                return (
+                  <ol
+                    key={`experience-point-${index}`}
+                    className='list-decimal ml-5 space-y-1'
+                  >
+                    {point.map((subPoint, subIndex) => (
+                      <li
+                        key={`experience-subpoint-${subIndex}`}
+                        className='text-white-100 text-[14px] pl-1 tracking-wider'
+                      >
+                        {subPoint}
+                      </li>
+                    ))}
+                  </ol>
+                );
+              }
+
+              return (
+                <li
+                  key={`experience-point-${index}`}
+                  className='text-white-100 text-[14px] pl-1 tracking-wider'
+                >
+                  {point}
+                </li>
+              );
+            })}
           </ul>
         </BackgroundGradient>
       </VerticalTimelineElement>
@@ -99,6 +118,15 @@ const Experience: React.FC = () => {
       padding: 0px;
       width: 100%;
     }
+
+    .vertical-timeline-element-content .vertical-timeline-element-date {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+    .vertical-timeline-element:last-child {
+        margin-bottom: 30px;
+      }
 
     @media only screen and (max-width: 450px) {
       .vertical-timeline.vertical-timeline--two-columns:before {
@@ -118,6 +146,64 @@ const Experience: React.FC = () => {
       }
       .vertical-timeline-element-content-arrow {
         display: none !important;
+      }
+
+      
+    }
+
+    @media only screen and (min-width: 1170px) {
+      .vertical-timeline-element {
+        margin: 4em 0;
+      }
+
+      .vertical-timeline::before {
+        background: white;
+        left: 50%;
+        margin-left: -2px;
+      }
+
+      .vertical-timeline-element-icon {
+        width: 60px;
+        height: 60px;
+        left: 50%;
+        margin-left: -30px;
+        top: 0;
+        margin-top: 0;
+      }
+
+      .vertical-timeline-element-content {
+        margin-left: 0;
+        padding: 1.5em;
+        width: 44%;
+      }
+
+      .vertical-timeline-element-content .vertical-timeline-element-date {
+        position: absolute;
+        width: 100%;
+        left: 124%;
+        top: 0;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content,
+      .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content {
+        float: right;
+      }
+
+      .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date,
+      .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date {
+        left: auto;
+        right: 124%;
+        text-align: right;
+      }
+
+      .vertical-timeline-element-content-arrow {
+        top: 0;
+      }
+
+      .vertical-timeline-element:last-child {
+        margin-bottom: 55px;
       }
     }
   `;

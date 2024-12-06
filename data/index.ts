@@ -199,7 +199,16 @@ export const experiences = [
     date: "Sep 2023 - May 2025",
     points: [
       "CGPA: 3.87",
-      "Relevant Coursework: Object Oriented Design, Web Design and User Experience Engineering, Data Management and Database Design, Enterprise Software Design, Program Structures and Algorithms, Network Structures and Cloud Computing, User Experience Design and Engineering",
+      "Relevant Coursework: ",
+      [
+        "Object Oriented Design",
+        "Full-Stack Web Development",
+        "Data Management and Database Design",
+        "Enterprise Software Design",
+        "Program Structures and Algorithms",
+        "Network Structures and Cloud Computing",
+        "User Experience Design and Engineering"
+      ],
     ],
   },
   {
@@ -209,10 +218,14 @@ export const experiences = [
     iconBg: "#fff",
     date: "Aug 2021 - Feb 2023",
     points: [
-      "Spearheaded the front-end development of a Single Page Application (SPA) using React, revolutionizing the customer verification process for an insurance firm by replacing their traditional call center process with a streamlined digital system",
-      "Streamlined user verification process, slashing average confirmation times from 10+ minutes to just 3 minutes (70% faster) through digital self-service workflows, handling 2,000+ verification requests per day",
-      "Integrated Tensorflow-powered AI facial detection and MediaRecorder Web API for seamless real-time video capture, achieving a 98% accuracy rate in user verification",
-      "Refactored critical sections of Java code to leverage multithreading, resulting in a 40% improvement in CPU utilization efficiency and a 50% reduction in processing times for concurrent user requests",
+      "Spearheaded React SPA development to digitize customer verification for an insurance firm, eliminating call center operations",
+      "Accelerated verification times by 70% (from 10+ to 3 minutes) through self-service automation, processing 2000+ daily requests",
+      "Architected scalable infrastructure using AWS EC2, ASG, and ALB, achieving 99.99% uptime during 300% traffic spikes",
+      "Integrated AI facial detection using Tensorflow and MediaRecorder API for real-time verification, achieving 98% accuracy",
+      "Engineered user interfaces across 6 device categories, achieving 97% accessibility compliance with WCAG 2.1 standards",
+      "Implemented distributed microservices with Java and Spring Boot, boosting performance by 50% and CPU efficiency by 40%",
+      "Built end-to-end CI/CD pipelines with GitHub Actions, delivering 60% faster deployments with 40% fewer errors",
+      "Mentored 5 junior developers through Agile practices and code reviews, achieving 40% fewer bugs and 30% faster delivery"
     ],
   },
 ];
