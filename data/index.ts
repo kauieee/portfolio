@@ -222,7 +222,6 @@ export const experiences = [
       "Accelerated verification times by 70% (from 10+ to 3 minutes) through self-service automation, processing 2000+ daily requests",
       "Architected scalable infrastructure using AWS EC2, ASG, and ALB, achieving 99.99% uptime during 300% traffic spikes",
       "Integrated AI facial detection using Tensorflow and MediaRecorder API for real-time verification, achieving 98% accuracy",
-      "Engineered user interfaces across 6 device categories, achieving 97% accessibility compliance with WCAG 2.1 standards",
       "Implemented distributed microservices with Java and Spring Boot, boosting performance by 50% and CPU efficiency by 40%",
       "Built end-to-end CI/CD pipelines with GitHub Actions, delivering 60% faster deployments with 40% fewer errors",
       "Mentored 5 junior developers through Agile practices and code reviews, achieving 40% fewer bugs and 30% faster delivery"
