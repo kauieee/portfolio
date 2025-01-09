@@ -192,11 +192,24 @@ export const flipWords = [
 
 export const experiences = [
   {
+    title: "Generative AI Developer Co-op",
+    company_name: "Burnes Center for Social Change",
+    icon: "northeastern.webp",
+    iconBg: "#fff",
+    date: "Jan 2025 - June 2025",
+    points: [
+      "Spearhead development of a high-impact generative AI project, collaborating with government agencies and nonprofit organizations to address pressing societal challenges",
+      "Partner with stakeholders to identify, design, and implement AI-driven solutions using cutting-edge LLMs and generative AI platforms",
+      "Optimize and fine-tune generative AI tools through advanced prompting techniques to enhance solution effectiveness and user experience",
+      "Implement product management methodologies to drive project success, including sprint planning, milestone tracking, and deliverable management",
+    ],
+  },
+  {
     title: "Master of Science in Software Engineering Systems",
     company_name: "Northeastern University",
     icon: "northeastern.webp",
     iconBg: "#fff",
-    date: "Sep 2023 - May 2025",
+    date: "Sep 2023 - Dec 2025",
     points: [
       "CGPA: 3.87",
       "Relevant Coursework: ",
