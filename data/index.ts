@@ -44,7 +44,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building an application to ship to 1000 users",
+    title: "Currently building an application to streamline grant and loan applications for small businesses in New Jersey",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -83,6 +83,20 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Cloud Native Web Application",
+    des: "A high-performance, cloud-native web application built with modern DevOps practices and cloud-first architecture. This application provides robust user management capabilities with secure authentication, profile image handling, health monitoring, and automated deployment pipelines. Designed for scalability and resilience, it leverages containerization, infrastructure as code, and automated testing to ensure reliable deployment across cloud environments.",
+    img: "/aws-architecture.webp",
+    iconLists: [
+      "/js.svg",
+      "/exp.svg",
+      "/aws.svg",
+      "/terraform.svg",
+      "/github.svg",
+    ],
+    link: "https://github.com/kaushik-manivannan/webapp",
+  },
+  {
+    id: 3,
     title: "Flip AI - SaaS App",
     des: "AI-Powered Next.js app that instantly transforms any topic into custom flashcards for fast and engaging learning.",
     img: "/flipai.webp",
@@ -98,7 +112,7 @@ export const projects = [
     link: "https://flipai.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "NEU Intramurals AI RAG Chatbot",
     des: "AI RAG Chatbot providing real-time information about Northeastern University's Intramural Sports program, leveraging a custom knowledge base and NLP to answer student queries.",
     img: "/ai-chatbot.webp",
@@ -113,7 +127,7 @@ export const projects = [
     link: "https://neuimbot.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Tasty Trails",
     des: "MERN Stack application that provides a platform for users to share information about surplus food, creating a better environment where everyone can contribute to minimizing food wastage.",
     img: "/tasty-trails.webp",
@@ -128,7 +142,7 @@ export const projects = [
     link: "https://github.com/kaushik-manivannan/tasty-trails",
   },
   {
-    id: 5,
+    id: 6,
     title: "Hire & Seek",
     des: "A Spring Boot application that simplifies the job application process for both candidates and employers.",
     img: "/hire-and-seek.webp",
@@ -142,7 +156,7 @@ export const projects = [
     link: "https://github.com/kaushik-manivannan/hire-and-seek",
   },
   {
-    id: 6,
+    id: 7,
     title: "Smart Parking Management System",
     des: "Comprehensive Oracle SQL based database-driven solution that addresses urban parking challenges.",
     img: "/parking.webp",
@@ -186,8 +200,10 @@ export const flipWords = [
   "React",
   "JavaScript",
   "TypeScript",
+  "Node.js",
   "Java",
   "Python",
+  "AWS"
 ];
 
 export const experiences = [
@@ -196,12 +212,15 @@ export const experiences = [
     company_name: "Burnes Center for Social Change",
     icon: "northeastern.webp",
     iconBg: "#fff",
-    date: "Jan 2025 - June 2025",
+    date: "Jan 2025 - Jun 2025",
     points: [
-      "Spearhead development of a high-impact generative AI project, collaborating with government agencies and nonprofit organizations to address pressing societal challenges",
-      "Partner with stakeholders to identify, design, and implement AI-driven solutions using cutting-edge LLMs and generative AI platforms",
-      "Optimize and fine-tune generative AI tools through advanced prompting techniques to enhance solution effectiveness and user experience",
-      "Implement product management methodologies to drive project success, including sprint planning, milestone tracking, and deliverable management",
+      "Spearheaded an Azure-native AI application for the New Jersey Economic Development Authority (NJEDA) that auto-screens 10K+ business compliance documents annually, cutting manual reviews by 50% and expediting grant application approvals",
+      "Captured user insights from 12 staff & 5 applicant interviews, translating them into prioritized features and a validation checklist",
+      "Utilized Azure AI Document Intelligence to extract content with 99% field-level accuracy across 1000+ docs",
+      "Built serverless pipelines with Azure Functions (Node.js), validating 10K+ PDFs/year in 2 sec average—at $1 per 1000 pages",
+      "Embedded AI tool into NJEDA’s Power Apps ecosystem via Power Automate flow—firing an Azure Function on application submission, producing PDF validation results in Dynamics 365, and reclaiming 20+ staff-hours every week",
+      "Implemented end-to-end CI/CD with Azure Pipelines, shrinking build-to-production time from 30 min to <5 min",
+      "Directed weekly meetings with CTO, COO, and IT Director—clearing integration blockers and holding 100% on-time delivery"
     ],
   },
   {
@@ -211,7 +230,7 @@ export const experiences = [
     iconBg: "#fff",
     date: "Sep 2023 - Dec 2025",
     points: [
-      "CGPA: 3.87",
+      "CGPA: 3.9",
       "Relevant Coursework: ",
       [
         "Object Oriented Design",

@@ -15,20 +15,22 @@ const RecentProjects = () => {
                 projects.map(({ id, title, des, img, iconLists, link }, index) => (
                     <div key={id} className="sm:h-[37rem] xs:h-[33rem] h-[29rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
                         <PinContainer title={link} href={link}>
-                            <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden mb-10 rounded-lg h-fit">
-                                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                                    <img src="/bg.webp" alt="Kaushik Manivannan" />
-                                </div>
-                                <img 
-                                    loading="lazy" 
-                                    src={img} 
-                                    alt="Kaushik Manivannan" 
-                                    className={`z-10 absolute top-0 bottom-0 left-0 right-0 rounded-lg ${index === 1 ? '' : 'object-cover'} w-full h-full object-top`}
-                                />
-                            </div>
-                            <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 mb-1">
-                                {title}
-                            </h1>
+                        <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden mb-10 rounded-lg h-fit">
+                        <div className="relative w-full h-full overflow-hidden lg:rounded-3xl aspect-video">
+                            {/* <img src="/bg.webp" alt="Kaushik Manivannan" /> */}
+                        </div>
+                        <div className="z-10 absolute top-0 bottom-0 left-0 right-0 w-full h-full">
+                            <img 
+                                loading="lazy" 
+                                src={img} 
+                                alt="Kaushik Manivannan" 
+                                className="rounded-lg w-full h-full object-contain"
+                            />
+                        </div>
+                    </div>
+                    <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 mb-1">
+                        {title}
+                    </h1>
                             <p className="lg:text-lg lg:font-normal font-light text-sm line-clamp-3">
                                 {des}
                             </p>
