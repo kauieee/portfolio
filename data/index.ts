@@ -266,9 +266,9 @@ export const experiences = [
     date: "Aug 2021 - Feb 2023",
     points: [
       "Architected React identity verification system serving 500K+ users, reducing call center volume by 67% (1,500→500 daily calls)",
-      "Deployed scalable infrastructure using AWS EC2, ASG, and ALB, maintaining system responsiveness during 3x traffic increases",
+      "Deployed distributed system using AWS EC2, ASG, and ALB, maintaining system responsiveness during 3x traffic increases",
       "Integrated TensorFlow-based facial recognition with MediaRecorder API for real-time verification, achieving 95% accuracy",
-      "Developed Java/Spring Boot backend with optimized PostgreSQL queries, reducing database response times by 40%",
+      "Developed REST APIs using Java/Spring Boot with optimized PostgreSQL queries, reducing database response times by 40%",
       "Mentored 5 junior developers through Agile practices and code reviews, achieving 40% fewer bugs and 30% faster delivery cycles",
     ],
   },
