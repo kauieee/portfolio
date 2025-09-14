@@ -13,7 +13,7 @@ export const gridItems = [
   {
     id: 2,
     title:
-      "Passionate about developing AI solutions that tackle global challenges.",
+      "I built an AI-powered application that government employees actually enjoy using, which apparently violates several laws of nature.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -33,8 +33,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Grad Student at Northeastern University",
-    description: "Life Lately",
+    title: "Graduating December 2025",
+    description: "Current Status",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -44,7 +44,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building an application to streamline grant and loan applications for small businesses in New Jersey",
+    title: "I learned that the most important engineering problems hide in the things users apologetically mention at the end of meetings.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -196,31 +196,45 @@ export const leftLists = ["React", "Typescript", "Next.js"];
 export const rightLists = ["Java", "Spring Boot", "AWS"];
 
 export const flipWords = [
-  "Next.js",
-  "React",
   "JavaScript",
   "TypeScript",
+  "React",
+  "Next.js",
   "Node.js",
   "Java",
   "Python",
-  "AWS"
+  "AWS",
+  "Azure"
 ];
 
 export const experiences = [
   {
-    title: "Generative AI Developer Co-op",
+    title: "Software Engineer - Research Assistant",
+    company_name: "College of Arts, Media, and Design (CAMD) at Northeastern University",
+    icon: "camd.webp",
+    iconBg: "#000",
+    date: "Jun 2025 - Present",
+    points: [
+      "Modernized mobile gaming archive from Excel to DynamoDB, enabling 500+ global researchers to access preserved artifacts",
+      "Orchestrated AWS serverless migration using Node.js Lambda/API Gateway, cutting infra costs by 92% ($30→$2.50/month)",
+      "Migrated 723 images from HTTP to S3 with CloudFront CDN, delivering faster load times for global users",
+      "Optimized DynamoDB schema with secondary indexes for 260+ games and 30 collections, enabling sub-100ms queries",
+      "Established CI/CD pipeline using Vercel and CloudWatch monitoring, ensuring reliable deployment and system observability",
+    ],
+  },
+  {
+    title: "Generative AI Engineer Co-op",
     company_name: "Burnes Center for Social Change",
     icon: "northeastern.webp",
     iconBg: "#fff",
     date: "Jan 2025 - Jun 2025",
     points: [
-      "Spearheaded an Azure-native AI application for the New Jersey Economic Development Authority (NJEDA) that auto-screens 10K+ business compliance documents annually, cutting manual reviews by 50% and expediting grant application approvals",
-      "Captured user insights from 12 staff & 5 applicant interviews, translating them into prioritized features and a validation checklist",
-      "Utilized Azure AI Document Intelligence to extract content with 99% field-level accuracy across 1000+ docs",
-      "Built serverless pipelines with Azure Functions (Node.js), validating 10K+ PDFs/year in 2 sec average—at $1 per 1000 pages",
-      "Embedded AI tool into NJEDA’s Power Apps ecosystem via Power Automate flow—firing an Azure Function on application submission, producing PDF validation results in Dynamics 365, and reclaiming 20+ staff-hours every week",
-      "Implemented end-to-end CI/CD with Azure Pipelines, shrinking build-to-production time from 30 min to <5 min",
-      "Directed weekly meetings with CTO, COO, and IT Director—clearing integration blockers and holding 100% on-time delivery"
+      `Spearheaded Azure-native AI application for the New Jersey Economic Development Authority (NJEDA) auto-screening 15,000+
+      business compliance documents annually, cutting manual reviews by 50% and expediting grant application approvals`,
+      "Directed stakeholder meetings through 12 user interviews and weekly C-level meetings, maintaining 100% on-time delivery",
+      "Extracted key fields from unstructured PDFs using Azure AI Document Intelligence, achieving 99% accuracy across 1,000+ docs",
+      "Engineered serverless processing pipeline using Azure Functions, validating 10K+ PDFs/year with 2 sec average response time",
+      "Built event-driven Power Apps integration triggering Azure Functions on document submission, saving 20+ staff-hours weekly",
     ],
   },
   {
@@ -230,7 +244,7 @@ export const experiences = [
     iconBg: "#fff",
     date: "Sep 2023 - Dec 2025",
     points: [
-      "CGPA: 3.9",
+      "GPA: 3.9",
       "Relevant Coursework: ",
       [
         "Object Oriented Design",
@@ -239,7 +253,8 @@ export const experiences = [
         "Enterprise Software Design",
         "Program Structures and Algorithms",
         "Network Structures and Cloud Computing",
-        "User Experience Design and Engineering"
+        "User Experience Design and Engineering",
+        "Design Patterns"
       ],
     ],
   },
@@ -250,13 +265,11 @@ export const experiences = [
     iconBg: "#fff",
     date: "Aug 2021 - Feb 2023",
     points: [
-      "Spearheaded React SPA development to digitize customer verification for an insurance firm, eliminating call center operations",
-      "Accelerated verification times by 70% (from 10+ to 3 minutes) through self-service automation, processing 2000+ daily requests",
-      "Architected scalable infrastructure using AWS EC2, ASG, and ALB, achieving 99.99% uptime during 300% traffic spikes",
-      "Integrated AI facial detection using Tensorflow and MediaRecorder API for real-time verification, achieving 98% accuracy",
-      "Implemented distributed microservices with Java and Spring Boot, boosting performance by 50% and CPU efficiency by 40%",
-      "Built end-to-end CI/CD pipelines with GitHub Actions, delivering 60% faster deployments with 40% fewer errors",
-      "Mentored 5 junior developers through Agile practices and code reviews, achieving 40% fewer bugs and 30% faster delivery"
+      "Architected React identity verification system serving 500K+ users, reducing call center volume by 67% (1,500→500 daily calls)",
+      "Deployed scalable infrastructure using AWS EC2, ASG, and ALB, maintaining system responsiveness during 3x traffic increases",
+      "Integrated TensorFlow-based facial recognition with MediaRecorder API for real-time verification, achieving 95% accuracy",
+      "Developed Java/Spring Boot backend with optimized PostgreSQL queries, reducing database response times by 40%",
+      "Mentored 5 junior developers through Agile practices and code reviews, achieving 40% fewer bugs and 30% faster delivery cycles",
     ],
   },
 ];

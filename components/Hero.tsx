@@ -38,7 +38,7 @@ const Hero = () => {
                     <TextGenerateEffect words={words}  className='text-center text-[40px] md:text-5xl lg:text-6xl'/>
 
                     <p className="text-center md:tracking-wider text-sm md:text-xl lg:text-2xl mb-5 md:mb-0 font-bold">
-                        A Full-Stack AI Software Engineer based in Boston, MA.
+                        A Full-Stack AI Software Engineer.
                     </p>
 
                     <a href="#projects">
