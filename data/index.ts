@@ -13,7 +13,7 @@ export const gridItems = [
   {
     id: 2,
     title:
-      "I built an AI-powered application that government employees actually enjoy using, which apparently violates several laws of nature.",
+      "The best engineering happens when technical rigor meets genuine empathy for the people using what we build.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -223,7 +223,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Generative AI Engineer Co-op",
+    title: "AI Engineer Co-op",
     company_name: "Burnes Center for Social Change",
     icon: "northeastern.webp",
     iconBg: "#fff",
